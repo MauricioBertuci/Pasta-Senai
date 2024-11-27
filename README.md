@@ -7,6 +7,7 @@
 - Aula de AUTOMAÇÃO (pyautogui)
 - Aula de METODOS DE STRINGS
 - Aula de OPERADORES
+- Aula de Vetor e Matriz
 
 ##Aprendizados
   
