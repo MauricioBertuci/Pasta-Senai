@@ -4,14 +4,17 @@
 print("Preencha as notas fos alunos ")
 matriz= []
 
-for i in range(2):
+
+for i in range(6):
     linha= []
-    for coluna in range(2):
+    for coluna in range(4):
         nota= int(input("Digite a nota do aluno: ")) #Pede a nota dos alunos
         linha.append(nota) #adiciona nota de cada aluno
     matriz.append(linha) #cria linha e colunas
 
-print(f"Tabela das notas dos alunos: /n {matriz} ")
+print(f"Tabela das notas dos alunos:  {matriz} ")
+
+
 print()
 print()
     
