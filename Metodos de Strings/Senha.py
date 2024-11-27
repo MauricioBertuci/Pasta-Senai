@@ -9,13 +9,9 @@ verificação= input("Digite sua senha novamente:  ")
 
 #criterios de aprovação
 tamanho_senha = len(senha)
+if senha == verificação and senha == len(senha) >= 8:
+    print()
 
-if senha == verificação and tamanho_senha >= 8 and senha.upper():
-            print("Senha correta !!")
-else:
-    print("Revise os parametros de analise !!")
-        
-    
 
 # len() usado para contar o tamanho do texto 
 # isupper() verifica se todos estão em maiuscula

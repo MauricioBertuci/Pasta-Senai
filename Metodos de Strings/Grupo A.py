@@ -58,7 +58,6 @@ frase= "HOLLA MUNDO !!"
 print(frase.lower())
 print("."*30)
 
-
 #isalnum() {verifica se tem caracteres especiais}
 print("verifica se tem caracteres especial !!" )
 frase= "HOLLA MUNDO !!"

@@ -18,3 +18,5 @@ print(f"Tabela das notas dos alunos:  {matriz} ")
 print()
 print()
     
+media = sum(linha) / len(linha)
+print(media)
