@@ -10,7 +10,7 @@ verificação= input("Digite sua senha novamente:  ")
 #criterios de aprovação
 tamanho_senha = len(senha)
 
-if senha == verificação and tamanho_senha >= 8 and senha.isupper() and senha.isdigit():
+if senha == verificação and tamanho_senha >= 8 and senha.upper():
             print("Senha correta !!")
 else:
     print("Revise os parametros de analise !!")
