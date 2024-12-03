@@ -77,7 +77,7 @@ elif opções == 2:
     for linha[1] in estoque:
         nova__entrada = int(input("Digite o novo valor a ser somado: "))
         nova_entrada = entrada
-        linha.append()
+        linha.append( )
 
     # for 
 
