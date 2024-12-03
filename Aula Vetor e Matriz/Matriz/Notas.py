@@ -4,9 +4,10 @@
 #Pedindo notas
 print("Preencha as notas fos alunos ")
 matriz= []
+
 for aluno in range(2):
     aluno= input("Digite o nome do aluno: ")
-    # nome = [] #verificarr
+
     linha= []
     for coluna in range(2):
         valor= float(input(f"Digite a nota {coluna+1} do aluno {aluno}: ")) 
@@ -18,8 +19,10 @@ print(f"Tabela das notas dos alunos:  {matriz} ")
 
 #caucular media
 medias_aluno = []
+
 for linha in matriz:
     media = sum(linha) / len(linha)
+
     # nome.append(aluno) ##verificarrrrrrr
     medias_aluno.append(media) 
 print(f"Media dos alunos: {medias_aluno}") 

@@ -1,4 +1,4 @@
-#Começa contar a partir do 0,1,2,3...
+    #Começa contar a partir do 0,1,2,3...
 #Matriz é vetor dentro de vetor
 """
 matriz= [
@@ -32,13 +32,13 @@ for i in range(len(matriz)):
 #Criar uma matriz 3x3 com valores forncidos pelo usuario
 
 matriz= []
-print("Preencha a matriz 3x3 ")
+print("Preencha a matriz 3x3 \n ")
 for i in range(3):
     linha= []
     for j in range(3):
         valor= int(input(f"Digite o valor para posição: [{i}][{j}]: ")) #coloca o valor em casa posição da linha, que tem 3 colunas
         linha.append(valor) 
-    matriz.append(linha)
+    matriz.append(linha)    
 
 print("Matriz")
 for linha in matriz:
